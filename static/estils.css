@@ -1,0 +1,19 @@
+body{
+background-color:aquamarine;
+}
+.alert{
+    text-align: center;
+}
+.inf{
+    background-color:cadetblue;
+    width:60%;
+    position:relative;
+    text-align:center;
+    border:1px solid;
+    padding: 10%;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: inline-block;
+
+}

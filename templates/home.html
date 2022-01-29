@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+<h1>{% block title %} Home {% endblock %}</h1>
+{% block content %}
+<ul>
+    {% for post in posts %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
+<button href="{{ url_for('logout') }}">cerrar sesion</button>
+{% endblock %}
